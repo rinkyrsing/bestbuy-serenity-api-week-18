@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Products CRUD test","Update product id ","FAILURE","2022-06-07T01:55:33.514+01:00[Europe/London]","0.0","0.09"
+"Services CRUD test with steps","Verify if the Product was added to the application","FAILURE","2022-06-07T01:55:35.099+01:00[Europe/London]","0.0","0.03"
+"Services CRUD test with steps","Delete the product by ID","FAILURE","2022-06-07T01:55:35.239+01:00[Europe/London]","0.0","0.02"
+"Stores CRUD test","This will create new list into stores","FAILURE","2022-06-07T01:55:35.523+01:00[Europe/London]","0.0","0.03"

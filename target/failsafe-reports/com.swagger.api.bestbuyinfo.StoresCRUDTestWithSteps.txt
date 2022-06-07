@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.swagger.api.bestbuyinfo.StoresCRUDTestWithSteps
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.016 sec <<< FAILURE! - in com.swagger.api.bestbuyinfo.StoresCRUDTestWithSteps
+test002(com.swagger.api.bestbuyinfo.StoresCRUDTestWithSteps)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.swagger.api.bestbuyinfo.StoresCRUDTestWithSteps.test002(StoresCRUDTestWithSteps.java:51)
+
+test003(com.swagger.api.bestbuyinfo.StoresCRUDTestWithSteps)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.swagger.api.bestbuyinfo.StoresCRUDTestWithSteps.test003(StoresCRUDTestWithSteps.java:61)
+
+test004(com.swagger.api.bestbuyinfo.StoresCRUDTestWithSteps)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.swagger.api.bestbuyinfo.StoresCRUDTestWithSteps.test004(StoresCRUDTestWithSteps.java:70)
+
+test01(com.swagger.api.bestbuyinfo.StoresCRUDTestWithSteps)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.swagger.api.bestbuyinfo.StoresCRUDTestWithSteps.test01(StoresCRUDTestWithSteps.java:42)
+

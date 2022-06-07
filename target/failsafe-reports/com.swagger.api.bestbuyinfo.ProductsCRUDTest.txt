@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.swagger.api.bestbuyinfo.ProductsCRUDTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.583 sec <<< FAILURE! - in com.swagger.api.bestbuyinfo.ProductsCRUDTest
+test003(com.swagger.api.bestbuyinfo.ProductsCRUDTest)  Time elapsed: 0.094 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: map containing [ANYTHING->"Practice-Energizer36078_updateName"]
+     but: map was [<image=http://img.bbystatic.com/BestBuy_US/images/products>, <upc=012562165141>, <description=Alkaline batteries; 1.5V>, <type=HardGood53852>, <url=http://www.bestbuy.com/site/>, <manufacturer=Energizer>, <createdAt=2022-06-07T00:55:32.839Z>, <shipping=15>, <price=5>, <name=Practice-Energizer36078>, <model=E91BP-4>, <id=9999685>, <categories=[]>, <updatedAt=2022-06-07T00:55:32.839Z>]
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at com.swagger.api.bestbuyinfo.ProductsCRUDTest.test003(ProductsCRUDTest.java:60)
+

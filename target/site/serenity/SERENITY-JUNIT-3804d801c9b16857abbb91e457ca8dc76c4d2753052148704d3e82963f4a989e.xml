@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="com.swagger.api.bestbuyinfo.ProductsCRUDTest" skipped="0" tests="1" time="3.07" timestamp="2022-06-07T02:02:54.690+01:00[Europe/London]"><testcase classname="com.swagger.api.bestbuyinfo.ProductsCRUDTest" name="Update product id "><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.swagger.api.bestbuyinfo.ProductsSteps.getProductInfoByName(ProductsSteps.java:48)&#13;
+com.swagger.api.bestbuyinfo.ProductsCRUDTest.test003(ProductsCRUDTest.java:59)&#13;
+</system-err></testcase></testsuite>

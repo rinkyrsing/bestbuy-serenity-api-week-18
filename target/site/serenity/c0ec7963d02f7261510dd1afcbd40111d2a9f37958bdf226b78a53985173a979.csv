@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Stores CRUD test","Update the store information and verify the updated information","ERROR","2022-06-07T01:55:35.413+01:00[Europe/London]","0.0","0.06"
+"Stores CRUD test","Delete the store and verify if that store is deleted!","ERROR","2022-06-07T01:55:35.476+01:00[Europe/London]","0.0","0.03"
+"Stores CRUD test","Verify if the stores was added to the application","ERROR","2022-06-07T01:55:35.507+01:00[Europe/London]","0.0","0.02"
+"Stores CRUD test","This will create new list into stores","FAILURE","2022-06-07T01:55:35.523+01:00[Europe/London]","0.0","0.03"

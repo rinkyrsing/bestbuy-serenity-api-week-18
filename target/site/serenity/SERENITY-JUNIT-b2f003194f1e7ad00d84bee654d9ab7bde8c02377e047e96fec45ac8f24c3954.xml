@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="com.swagger.api.bestbuyinfo.ServicesCRUDTestWithSteps" skipped="0" tests="4" time="3.67" timestamp="2022-06-07T02:11:26.922+01:00[Europe/London]"><testcase classname="com.swagger.api.bestbuyinfo.ServicesCRUDTestWithSteps" name="Verify if the Product was added to the application"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.swagger.api.bestbuyinfo.ServicesSteps.getServiceInfoByName(ServicesSteps.java:32)&#13;
+com.swagger.api.bestbuyinfo.ServicesCRUDTestWithSteps.test002(ServicesCRUDTestWithSteps.java:38)&#13;
+</system-err></testcase><testcase classname="com.swagger.api.bestbuyinfo.ServicesCRUDTestWithSteps" name="Delete the product by ID"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.swagger.api.bestbuyinfo.ServicesCRUDTestWithSteps.test004(ServicesCRUDTestWithSteps.java:55)&#13;
+</system-err></testcase><testcase classname="com.swagger.api.bestbuyinfo.ServicesCRUDTestWithSteps" name="This will create a New Service"/><testcase classname="com.swagger.api.bestbuyinfo.ServicesCRUDTestWithSteps" name="Update the product information"/></testsuite>

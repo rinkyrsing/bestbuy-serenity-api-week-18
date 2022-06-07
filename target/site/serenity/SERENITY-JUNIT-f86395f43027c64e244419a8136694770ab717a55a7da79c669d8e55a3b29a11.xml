@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="com.swagger.api.bestbuyinfo.CategoriesCRUDTest" skipped="0" tests="1" time="1.49" timestamp="2022-06-07T15:09:55.638+01:00[Europe/London]"><testcase classname="com.swagger.api.bestbuyinfo.CategoriesCRUDTest" name=" Verify the categories by name: {0}"><error message="firstParameterValue cannot be null" type="java.lang.IllegalArgumentException">firstParameterValue cannot be null</error><system-err>firstParameterValue cannot be null&#13;
+io.restassured.internal.assertion.AssertParameter.notNull(AssertParameter.groovy:26)&#13;
+io.restassured.internal.RequestSpecificationImpl.pathParameters(RequestSpecificationImpl.groovy:567)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)&#13;
+io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)&#13;
+io.restassured.internal.RequestSpecificationImpl.pathParams(RequestSpecificationImpl.groovy:582)&#13;
+net.serenitybdd.rest.decorators.request.RequestSpecificationParametersConfigurations.pathParams(RequestSpecificationParametersConfigurations.java:194)&#13;
+net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.pathParams(RequestSpecificationDecorated.java:27)&#13;
+com.swagger.api.bestbuyinfo.CategoriesSteps.getCategoriesByName(CategoriesSteps.java:37)&#13;
+com.swagger.api.bestbuyinfo.CategoriesCRUDTest.test002(CategoriesCRUDTest.java:41)&#13;
+</system-err></testcase></testsuite>
